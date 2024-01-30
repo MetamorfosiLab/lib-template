@@ -1,17 +1,17 @@
 {
-  "name": "@metamorfosilab/_library-name_",
+  "name": "@metamorfosilab/pkg-placeholder",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.14.0",
   "description": "_description_",
   "author": "Roman Hrynevych <hrynevych.romann@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/MetamorfosiLab/_library-name_#readme",
+  "homepage": "https://github.com/MetamorfosiLab/pkg-placeholder#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MetamorfosiLab/_library-name_.git"
+    "url": "git+https://github.com/MetamorfosiLab/pkg-placeholder.git"
   },
-  "bugs": "https://github.com/MetamorfosiLab/_library-name_/issues",
+  "bugs": "https://github.com/MetamorfosiLab/pkg-placeholder/issues",
   "keywords": [
     "cookies",
     "consent",
