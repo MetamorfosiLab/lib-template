@@ -1,4 +1,4 @@
-# @metamorfosilab/pkg-placeholder
+# @metamorfosilab/lib-template
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -12,20 +12,20 @@ You can easily customize the design by changing the theme or creating a new one 
 
 # Documentation
 
-[Link ❤️](https://metamorfosilab.github.io/pkg-placeholder/)
+[Link ❤️](https://metamorfosilab.github.io/lib-template/)
 
 # Basic usage
 
 ```bash
-npm i @metamorfosilab/pkg-placeholder
+npm i @metamorfosilab/lib-template
 ```
 
 ```bash
-pnpm i @metamorfosilab/pkg-placeholder
+pnpm i @metamorfosilab/lib-template
 ```
 
 ```bash
-yarn add @metamorfosilab/pkg-placeholder
+yarn add @metamorfosilab/lib-template
 ```
 
 ## License
@@ -34,13 +34,13 @@ yarn add @metamorfosilab/pkg-placeholder
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@metamorfosilab/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/@metamorfosilab/pkg-placeholder
-[npm-downloads-src]: https://img.shields.io/npm/dm/@metamorfosilab/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/@metamorfosilab/pkg-placeholder
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@metamorfosilab/pkg-placeholder?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@metamorfosilab/pkg-placeholder
-[license-src]: https://img.shields.io/github/license/@metamorfosilab/pkg-placeholder.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/@metamorfosilab/pkg-placeholder/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/@metamorfosilab/lib-template?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@metamorfosilab/lib-template
+[npm-downloads-src]: https://img.shields.io/npm/dm/@metamorfosilab/lib-template?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@metamorfosilab/lib-template
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@metamorfosilab/lib-template?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@metamorfosilab/lib-template
+[license-src]: https://img.shields.io/github/license/@metamorfosilab/lib-template.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/@metamorfosilab/lib-template/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/@metamorfosilab/pkg-placeholder
+[jsdocs-href]: https://www.jsdocs.io/package/@metamorfosilab/lib-template

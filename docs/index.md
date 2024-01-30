@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Cookies Consent"
-  text: "A Cookies Consent Generator Docs"
+  name: "Package Name"
+  text: "A Package Name Docs"
   tagline: My great project tagline
   actions:
     - theme: brand

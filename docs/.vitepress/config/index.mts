@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Cookies Consent',
-  description: 'A Cookies Consent Generator Docs 🍪',
-  base: '/pkg-placeholder/',
+  title: 'Package Name',
+  description: 'A Package Name Docs',
+  base: '/lib-template/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
