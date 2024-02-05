@@ -6,7 +6,7 @@ import cssnanoPlugin from 'cssnano'
 import postcss from 'rollup-plugin-postcss'
 import postcssImport from 'postcss-import'
 import ts from 'rollup-plugin-ts'
-import pkg from './package.json' assert { type: 'json'}
+import pkg from './package.json'
 
 const srcDir = './src'
 const distDir = './dist'

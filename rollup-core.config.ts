@@ -1,7 +1,7 @@
 import { defineConfig } from 'rollup'
 import ts from 'rollup-plugin-ts'
 import { banner, terserPlugin } from './rollup-full.config'
-import pkg from './package.json' assert { type: 'json'}
+import pkg from './package.json'
 
 const distDir = './dist/core'
 const fileName = `${pkg.shortName}-core`

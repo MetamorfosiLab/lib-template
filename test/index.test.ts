@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
+// sum.test.js
+import { expect, it } from 'vitest'
+import { sum } from '../src'
 
-describe('should', () => {
-  it('exported', () => {
-    expect(1).toEqual(1)
-  })
+it('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3)
 })
