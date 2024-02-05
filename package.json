@@ -37,8 +37,8 @@
   ],
   "scripts": {
     "dev": "npm-run-all --parallel lib:dev play:dev",
+    "build": "pnpm rollup:full & pnpm rollup:core",
     "lib:dev": "rollup --config rollup-full.config.ts --configPlugin @rollup/plugin-typescript --watch",
-    "lib:build": "pnpm rollup:full & pnpm rollup:core",
     "rollup:full": "rollup --config rollup-full.config.ts --configPlugin @rollup/plugin-typescript",
     "rollup:core": "rollup --config rollup-core.config.ts --configPlugin @rollup/plugin-typescript",
     "lint": "eslint .",

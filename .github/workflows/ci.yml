@@ -23,14 +23,11 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm --filter=\!playground install
 
       - name: Lint
-        run: nr lint
+        run: pnpm run lint
 
   typecheck:
     runs-on: ubuntu-latest
@@ -45,14 +42,11 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm --filter=\!playground install
 
       - name: Typecheck
-        run: nr typecheck
+        run: pnpm run typecheck
 
   test:
     runs-on: ${{ matrix.os }}
@@ -74,14 +68,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm --filter=\!playground install
 
       - name: Build
-        run: nr build
+        run: pnpm run build
 
       - name: Test
-        run: nr test
+        run: pnpm run test
