@@ -4,6 +4,9 @@
     "lib": ["ESNext", "DOM"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "paths": {
+      "@metamorfosilab/lib-template": ["./src/index.ts"]
+    },
     "resolveJsonModule": true,
     "strict": true,
     "strictNullChecks": true,

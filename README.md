@@ -12,41 +12,15 @@ For usage of this library, just replace all `lib-template` with your library nam
 
 Pnpm is a main package manager for this project. You can install it from [pnpm.io](https://pnpm.io/)
 
-To run dev command first install the dependencies without 'playground' filter.
-
-```bash
-pnpm install --filter '!playground'
-```
-
-This is because of `file:` linking inside `/playground/package.json`
-
-Than run build command, so it will create `dist` folder.
-
-```bash
-pnpm run build
-```
-
-Than you can install all dependencies:
+To run dev command first install the dependencies and run `dev` command.
 
 ```bash
 pnpm install
 ```
 
-Because this is a monorepo, you can run `pnpm dev` in the root of the project, and it will run `dev` command in all packages.
-
 ```bash
-pnpm run dev
+pnpm dev
 ```
-
-This will run 2 commands in parallel:
-
-```bash
-npm-run-all --parallel lib:dev play:dev
-```
-
-So you can develop your library and playground at the same time.
-
-All scripts are defined in `package.json` file, `scripts` key. So if you want to deep dive into the scripts, you can find them there.
 
 # Playground
 
@@ -68,6 +42,14 @@ To config your github pages, go to `Settings` -> `Pages` and select `Source` to 
 
 [Link ❤️](https://metamorfosilab.github.io/lib-template/)
 
+# Release to `npm`
+
+To publish your library, you can use `pnpm publish` command.
+
+```bash
+pnpm run release
+```
+
 # Basic usage
 
 ```bash
@@ -85,14 +67,6 @@ yarn add @metamorfosilab/lib-template
 ## License
 
 [MIT](./LICENSE) License © 2024-PRESENT [Metamorfosi Lab](https://github.com/MetamorfosiLab)
-
-## Why not to run `pnpm install` in the root of the project?
-
-Because of `file:` linking inside `/playground/package.json`. If we want to run `pnpm install` in the root of the project, we need to add `/dist` folder to git and commit it. This is not a good practice, so we need to run `pnpm install` without `playground` filter.
-
-## Why you linking `file:` in `/playground/package.json`?
-
-Because we want to test our library in the playground. So you will develop it on rollup, and test it in the playground with all HMRS and other features.
 
 <!-- Badges -->
 

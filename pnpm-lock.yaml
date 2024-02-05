@@ -96,8 +96,8 @@ importers:
   playground:
     dependencies:
       '@metamorfosilab/lib-template':
-        specifier: file:../dist
-        version: file:dist
+        specifier: workspace:*
+        version: link:..
     devDependencies:
       pathe:
         specifier: ^1.1.2
@@ -6612,8 +6612,3 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
     dev: true
-
-  file:dist:
-    resolution: {directory: dist, type: directory}
-    name: dist
-    dev: false

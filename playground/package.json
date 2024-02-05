@@ -6,7 +6,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@metamorfosilab/lib-template": "file:../dist"
+    "@metamorfosilab/lib-template": "workspace:*"
   },
   "devDependencies": {
     "pathe": "^1.1.2",

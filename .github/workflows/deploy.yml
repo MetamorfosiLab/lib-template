@@ -41,7 +41,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: pnpm install --filter '!playground'
+        run: pnpm install
       - name: Build with VitePress
         run: |
           pnpm run docs:build
