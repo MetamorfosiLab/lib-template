@@ -72,6 +72,7 @@
     "rimraf": "^5.0.5",
     "rollup": "^4.9.6",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-ts": "^3.4.5",
     "simple-git-hooks": "^2.9.0",
     "tslib": "^2.6.2",
     "typescript": "5.3.3",

@@ -1,4 +1,5 @@
 import './style.css'
+import { add } from '@metamorfosilab/lib-template'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
@@ -17,6 +18,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
+    </p>
+    <p>
+      Sum of 2 + 5 is ${add(2, 5)}
     </p>
   </div>
 `

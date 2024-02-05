@@ -5,7 +5,7 @@ import postcssCombineDuplicatedSelectors from 'postcss-combine-duplicated-select
 import cssnanoPlugin from 'cssnano'
 import postcss from 'rollup-plugin-postcss'
 import postcssImport from 'postcss-import'
-import typescript from '@rollup/plugin-typescript'
+import ts from 'rollup-plugin-ts'
 import pkg from './package.json' assert { type: 'json'}
 
 const srcDir = './src'
@@ -99,7 +99,7 @@ export default defineConfig(
       },
     ],
     plugins: [
-      typescript(),
+      ts(),
       productionMode && terserPlugin,
     ],
   }, {

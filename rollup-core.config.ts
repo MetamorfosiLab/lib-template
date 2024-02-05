@@ -1,5 +1,5 @@
 import { defineConfig } from 'rollup'
-import typescript from '@rollup/plugin-typescript'
+import ts from 'rollup-plugin-ts'
 import { banner, terserPlugin } from './rollup-full.config'
 import pkg from './package.json' assert { type: 'json'}
 
@@ -26,7 +26,7 @@ export default defineConfig(
       ],
       plugins: [
         terserPlugin,
-        typescript(),
+        ts(),
       ],
     },
   ],
