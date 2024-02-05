@@ -24,7 +24,7 @@ jobs:
           node-version: lts/*
 
       - name: Install
-        run: pnpm --filter=\!playground install
+        run: pnpm install --filter '!playground'
 
       - name: Lint
         run: pnpm run lint
@@ -43,7 +43,7 @@ jobs:
           node-version: lts/*
 
       - name: Install
-        run: pnpm --filter=\!playground install
+        run: pnpm install --filter '!playground'
 
       - name: Typecheck
         run: pnpm run typecheck
@@ -69,7 +69,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install
-        run: pnpm --filter=\!playground install
+        run: pnpm install --filter '!playground'
 
       - name: Build
         run: pnpm run build
